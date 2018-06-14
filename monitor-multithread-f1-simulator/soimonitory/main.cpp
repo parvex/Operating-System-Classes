@@ -1,13 +1,3 @@
-// Lab SOI, monitory
-// bufor FIFO, 2 producentow, 2 konsumentow, rozmiar kolejki 7
-// producenci ma pierwszenstwo w dostepie do bufora (co oznacza, 
-// ze jesli konsument czeka w kolejce i w tym czasie przyjdzie 
-// producent, to jako pierwszy zostanie dopuszczony producent)
-// Autor: Michal Krawczak
-// Prowadzacy laboratoria: K. Chabko
-
-
-
 #include "mymonitor.h"
 
 #include <iostream>
